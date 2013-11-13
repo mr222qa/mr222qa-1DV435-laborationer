@@ -1,0 +1,53 @@
+html
+{
+    padding:0;
+    margin:0;
+}
+h1
+{
+    font-family: arial;
+    font-size: 20px;
+}
+h2
+{
+    font-family: arial;
+    font-size: 17px;
+    padding-left:10px;
+}
+p, dt, dd
+{
+	font-family:tahoma;
+}
+p
+{
+    font-size:12px;
+    color:#333333;
+    padding-left:12px;
+    margin-top:-10px;
+    width:500px;
+}
+ul, dl, ol
+{
+    margin-top:-7px;
+}
+ul.under_meny
+{
+	margin-top:3px;
+}
+li
+{
+	font-family:tahoma;
+    font-size:12px;
+    color:black;
+}
+dt
+{
+	padding-left:15px;
+	font-size:13px;
+	font-weight:bold;
+}
+dd
+{
+	font-size:13px;
+	text-decoration:underline
+}
