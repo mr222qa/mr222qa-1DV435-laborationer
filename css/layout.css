@@ -14,6 +14,13 @@ h2
     font-size: 17px;
     padding-left:10px;
 }
+h3
+{
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding-left:10px;
+}
 p, dt, dd
 {
 	font-family:tahoma;
@@ -26,11 +33,19 @@ p
     margin-top:-10px;
     width:500px;
 }
+.blog_date
+{
+	font-size:10px;
+	font-weight:bold;
+    color:#333333;
+    padding-left:20px;
+    width:500px;
+}
 ul, dl, ol
 {
     margin-top:-7px;
 }
-ul.under_meny
+.under_meny
 {
 	margin-top:3px;
 }
