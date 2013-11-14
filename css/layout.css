@@ -41,10 +41,6 @@ p
     padding-left:20px;
     width:500px;
 }
-ul, dl, ol
-{
-    margin-top:-7px;
-}
 .under_meny
 {
 	margin-top:3px;
@@ -55,13 +51,14 @@ li
     font-size:12px;
     color:black;
 }
-dt
+.underline_list dt
 {
 	padding-left:15px;
 	font-size:13px;
 	font-weight:bold;
 }
-dd
+
+.underline_list dd
 {
 	font-size:13px;
 	text-decoration:underline
