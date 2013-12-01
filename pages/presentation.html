@@ -8,84 +8,132 @@
         </title>
     </head>
     <body>
-        <!-- Här börjar allt som finns på sidan -->
-        <h1>Marcus Robertsson - On the line!</h1>
-		<ul>
-		    <li><a href="../index.html">Start</a></li>
-		    <li><a href="presentation.html">Presentation</a></li>
-		    <li><a href="laborationer.html">Laborationer</a></li>
-		    <li><a href="kontakt.html">Kontakt</a></li>
-		</ul>
-        <h1>Presentation</h1>
-        <h2>Vem är jag?</h2>
-        <p>
-            Hejsan mitt namn är Marcus Robertsson och är 19 år gammal.
-            Jag kommer från en liten stad som heter Falkenberg och har bott där i hela mitt liv.
-        </p>
-        <img src="../pics/migmig.jpg" id="img_me" alt="Mig" width="500" height="700">
-        <h2>Vart kommer jag från?</h2>
-        <p>
-            Där har jag växt upp tillsammans med min familj som består av tre bröder, mamma och pappa.
-            Min mamma och pappa är skiljda sedan lång tid tillbaka och därav har jag bara en helbror.
-        </p>
-        <h2>Vad gör jag på fritiden?</h2>
-        <p>
-            Det jag oftast brukar göra på min fritid är att spendera tid tillsammans med min flickvän som heter Michaela.
-            Och om jag inte spenderar tid med henne så brukar jag kunna ta en fika med mina polare eller bara ta det lungt.
-        </p>
-        <p>
-            Mina intressen är följande:
-		</p>
+        <div id="bg_header"></div>
+        <div id="wrapper">
+            <div id="header"></div>
+            <div id="menu">
+            <div class="triangle_menu"></div>
+                <ul>
+                    <li>
+                        <a href="../index.html">
+                            Hem
+                        </a>
+                    </li>
+                    <li>
+                        <a href="laborationer.html">
+                            Laborationer
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active" href="presentation.html">
+                            Presentation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="kontakt.html">
+                            Kontakt
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="arrow_active"></div>
+            <div id="content">
+                <h2 class="header">
+                    Presentation
+                </h2>
+                <h3 class="under_header">
+                    Vem är jag?
+                </h3>
+                <p class="info_text">
+                    Hejsan mitt namn är Marcus Robertsson och är 19 år gammal.
+                    Jag kommer från en liten stad som heter Falkenberg och har bott där i hela mitt liv.
+                </p>
+                <div class="image_me"></div>
+                <p class="under_photo">
+                    Här kommer en bild på mig.
+                </p>
+                <h3 class="under_header">
+                    Vart kommer jag ifrån?
+                </h3>
+                <p class="info_text">
+                    Där har jag växt upp tillsammans med min familj som består av tre bröder, mamma och pappa.
+                    Min mamma och pappa är skiljda sedan lång tid tillbaka och därav har jag bara en helbror.
+                </p>
+                <h3 class="under_header">
+                    Vad gör jag på fritiden?
+                </h3>
+                <p class="info_text">
+                    Det jag oftast brukar göra på min fritid är att spendera tid tillsammans med min flickvän som heter Michaela.
+                    Och om jag inte spenderar tid med henne så brukar jag kunna ta en fika med mina polare eller bara ta det lungt.
+                </p>
+                <p class="info_text">
+                    Mina intressen är följande:
+                </p>
                 <ul>
                     <li>Spela Leauge of Legends</li>
                     <li>Hänga med kompisar</li>
 					<li>Spendera tid med min flickvän</li>
 					<li>Ny teknik</li>
                 </ul>
-		<h2>Vad jag är bra/dålig på</h2>
-		<p>
-			Jag vet inte riktigt vad jag är bra eller dålig på, men kan försöka nämna några grejer jag vet med mig 
-			sen innan att jag är dålig på.
-		</p>
-			<dl class="underline_list">
-				<dt>Bra:</dt>
-					<dd>Teknik</dd>
-					<dd>League of Legends</dd>
-					<dd>Lära mig nya saker</dd>
-					<dd>På att komma försent</dd>
-					<dd>Datorer</dd>
-				<dt>Dålig:</dt>
-					<dd>Sporter</dd>
-					<dd>Göra flera saker samtidigt</dd>
-					<dd>Fokusera i skolan</dd>
-					
-			</dl>
-		<h2>Tidigare utbildningar</h2>
-		<p>
-			Jag har bara läst gymnasiet innan, jag läste lite på högskola men hoppade av efter 3 månader. 
-		</p>
-		<h2>Arbetslivserfarenheter</h2>
-		<p>
-			Här listas följande arbetsplatser och vad jag fick göra för uppgifter på arbetsplatserna:
-		</p>
+                <h3 class="under_header">
+                    Vad jag är bra/dålig på
+                </h3>
+                <p class="info_text">
+			        Jag vet inte riktigt vad jag är bra eller dålig på, men kan försöka nämna några grejer jag vet med mig 
+			        sen innan att jag är dålig på.
+		        </p>
+    			<dl class="underline_list">
+    				<dt>Bra:</dt>
+    					<dd>Teknik</dd>
+    					<dd>League of Legends</dd>
+    					<dd>Lära mig nya saker</dd>
+    					<dd>På att komma försent</dd>
+    					<dd>Datorer</dd>
+    				<dt>Dålig:</dt>
+    					<dd>Sporter</dd>
+    					<dd>Göra flera saker samtidigt</dd>
+    					<dd>Fokusera i skolan</dd>
+    			</dl>
+    			<h3 class="under_header">
+    			    Tidigare utbildningar
+    			</h3>
+        		<p class="info_text">
+        			Jag har bara läst gymnasiet innan, jag läste lite på högskola men hoppade av efter 3 månader. 
+        		</p>
+        		<h3 class="under_header">
+        		    Arbetslivserfarenheter
+        		</h3>
+        		<p class="info_text">
+        			Här listas följande arbetsplatser och vad jag fick göra för uppgifter på arbetsplatserna:
+        		</p>
 				<ol>
 					<li>Gekås
 						<ul class="under_meny">
-							<li>Lagerarbete
-							<li>Fylla på varor i hyllorna
-							<li>Hjälpa kunder
+							<li class="pres_li">Lagerarbete
+							<li class="pres_li">Fylla på varor i hyllorna
+							<li class="pres_li">Hjälpa kunder
 						</ul>
 					<li>Coop Forum (praktikant)
 						<ul class="under_meny">
-							<li>Fylla på varor i hyllorna
+							<li class="pres_li">Fylla på varor i hyllorna
 						</ul>
 				</ol>
-		<h2>Vilka är mina favorithemsidor?</h2>
-		<p>Här kommer tre hemsidor som jag tycker är bra:</p>
-		<ul>
-		    <li><a href="http://www.facebook.com">Facebook</a></li>
-		    <li><a href="http://www.swedroid.se">Swedroid</a></li>
-		    <li><a href="http://www.swefilmer.com">Swefilmer</a></li>
-		</ul>
+    		<h3 class="under_header">
+    		    Vilka är mina favorithemsidor?
+    		</h3>
+    		<p class="info_text">
+    		    Här kommer tre hemsidor som jag tycker är bra:
+    		</p>
+    		<ul>
+    		    <li><a href="http://www.facebook.com">Facebook</a></li>
+    		    <li><a href="http://www.swedroid.se">Swedroid</a></li>
+    		    <li><a href="http://www.swefilmer.com">Swefilmer</a></li>
+	    	</ul>
+	    	<br />
+            </div>
+            <div id="footer">
+                <p>Copyright by Marcus Robertsson 2013. Skoluppgifter inom ID</p>
+            </div>
+        </div>
     </body>
 </html>

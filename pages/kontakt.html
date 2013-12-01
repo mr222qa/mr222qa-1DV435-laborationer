@@ -4,43 +4,74 @@
         <meta charset="utf-8"/>
         <link rel="stylesheet" type="text/css" href="../css/layout.css"/>
         <title>
-            Startsida
+            Kontakt
         </title>
     </head>
-	<body>
-		<h1>Marcus Robertsson - On the line!</h1>
-		<ul>
-		    <li><a href="../index.html">Start</a></li>
-		    <li><a href="presentation.html">Presentation</a></li>
-		    <li><a href="laborationer.html">Laborationer</a></li>
-		    <li><a href="kontakt.html">Kontakt</a></li>
-		</ul>
-		<h2>Kontakt</h2>
-            <form method="POST" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
-		        <fieldset>
-		            <legend>
-		                Fråga
-		            </legend>
-		            Ärendetyp:
-		            <select name="Subject">
-		                <option value="Fråga">Fråga</option>
-		                <option value="Bugg">Bugg</option>
-		                <option value="Förbättringar">Förbättringar</option>
-		            </select>
-		            <br />
-		            Rubrik: <input name="Title" type="text">
-		            <br />
-		            Fråga:
-		            <textarea name="Text">
-		            </textarea>
-		        </fieldset>
-		        <fieldset>
-		            <legend>Information till dig</legend>
-		            Kontakta mig via mail: <input name="check" type="radio" value="mail">
-		                <br />
-		            Kontakta mig via telefon: <input name="check" type="radio" value="telefon">
-		        </fieldset>
-		        <input type="submit" value="Skicka">
-		    </form>
-	</body>
+    <body>
+        <div id="bg_header"></div>
+        <div id="wrapper">
+            <div id="header"></div>
+            <div id="menu">
+            <div class="triangle_menu"></div>
+                <ul>
+                    <li>
+                        <a href="../index.html">
+                            Kontakt
+                        </a>
+                    </li>
+                    <li>
+                        <a href="laborationer.html">
+                            Laborationer
+                        </a>
+                    </li>
+                    <li>
+                        <a href="presentation.html">
+                            Presentation
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active" href="kontakt.html">
+                            Kontakt
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="arrow_active"></div>
+            <div id="content">
+                <h2 class="header">
+                    Hem
+                </h2>
+                <h3 class="under_header">Kontakt</h3>
+                <form method="POST" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+    		        <fieldset>
+    		            <legend>
+    		                Fråga
+    		            </legend>
+    		            Ärendetyp:
+    		            <select name="Subject">
+    		                <option value="Fråga">Fråga</option>
+    		                <option value="Bugg">Bugg</option>
+    		                <option value="Förbättringar">Förbättringar</option>
+    		            </select>
+    		            <br />
+    		            Rubrik: <input name="Title" type="text">
+    		            <br />
+    		            Fråga:
+    		            <textarea name="Text">
+    		            </textarea>
+    		        </fieldset>
+    		        <fieldset>
+    		            <legend>Information till dig</legend>
+    		            Kontakta mig via mail: <input name="check" type="radio" value="mail">
+    		                <br />
+    		            Kontakta mig via telefon: <input name="check" type="radio" value="telefon">
+    		        </fieldset>
+		            <input type="submit" value="Skicka">
+		        </form>
+            </div>
+            <div id="footer">
+                <p>Copyright by Marcus Robertsson 2013. Skoluppgifter inom ID</p>
+            </div>
+        </div>
+    </body>
 </html>

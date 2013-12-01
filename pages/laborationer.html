@@ -4,181 +4,170 @@
         <meta charset="utf-8"/>
         <link rel="stylesheet" type="text/css" href="../css/layout.css"/>
         <title>
-            Startsida
+            Laborationer
         </title>
     </head>
-	<body>
-		<h1>Marcus Robertsson - On the line!</h1>
-		<ul>
-		    <li><a href="../index.html">Start</a></li>
-		    <li><a href="presentation.html#img_me">Presentation</a></li>
-		    <li><a href="laborationer.html">Laborationer</a></li>
-		    <li><a href="kontakt.html">Kontakt</a></li>
-		    <li><a href="../pics/header.png">Logotyp</a></li>
-		</ul>
-		<h1>Grafiska Verktyg</h1>
-		<h2>Laborationer</h2>
-		<h1>Klientbaserad webbutevckling</h1>
-		<h2>Laborationer</h2>
-		<p><a href="#labb_1">Laboration 1</a></p>
-		<p><a href="#labb_2">Laboration 2</a></p>
-		<h3 id="labb_1">Laboration 1</h3>
-		    <ul>
-		        <li>Github commit - Klar</li>
-		        <li><a href="presentation.html">Första uppgiften</a> - Klar</li>
-		        <li><a href="../index.html">Startsida</a> - Klar</li>
-		        <li>Absoluta/Relativa sökvägar
-		            <dl>
-		                <dt>1. Vilken är den absoluta sökvägen till filen bottom.html?
-		                    <dd><b>Svar: http://www.server.se/www/html/pages/bottom.html</b></dd>
-		                <dt>2. Vilken är den relativa sökvägen från filen default.html till filen top.html?
-		                    <dd><b>Svar: pages/top.html</b></dd>
-		                <dt>3. Vilken är den relativa sökvägen från filen bottom.html till filen index.html?
-		                    <dd><b>Svar: ../../index.html</b></dd>
-		                <dt>4. Vilken är den absoluta sökvägen till filen index.html?
-		                    <dd><b>Svar: http://www.server.se/www/index.html</b></dd>
-		                <dt>5. Vilken är den relativa sökvägen från filen top.html till bottom.html?
-		                    <dd><b>Svar: bottom.html</b></dd>
-		                <dt>6. Vilken är den relativa sökvägen från filen index.html till top.html:
-		                    <dd><b>Svar: pages/top.html</b></dd>
-		            </dl>
-		        <li>Länkar och mer listor - Under progress</li>
-		        
-		    </ul>
-	    <h3 id="labb_2">Laboration 2</h3>
-	    
-	    <h3>Resultat</h3>
+    <body>
+        <div id="bg_header"></div>
+        <div id="wrapper">
+            <div id="header"></div>
+            <div id="menu">
+            <div class="triangle_menu"></div>
+                <ul>
+                    <li>
+                        <a href="../index.html">
+                            Hem
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active" href="laborationer.html">
+                            Laborationer
+                        </a>
+                    </li>
+                    <li>
+                        <a href="presentation.html">
+                            Presentation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="kontakt.html">
+                            Kontakt
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="arrow_active"></div>
+            <div id="content">
+                <h2 class="header">
+                    Laborationer
+                </h2>
+                <h2 class="header">
+                    Grafiska Verktyg
+                </h2>
+                <h3 class="under_header">Laborationer</h3>
+                <h2 class="header">
+                    Klientbaserad webbutveckling
+                </h2>
+                <h3 class="under_header">
+                    Laborationer
+                </h3>
+        		<p class="info_text"><a href="#labb_1">Laboration 1</a></p>
+        		<p class="info_text"><a href="#labb_2">Laboration 2</a></p>
+        		<h3 class="under_header" id="labb_1">
+        		    Laboration 1
+        		</h3>
+        		<ul>
+    		        <li>Github commit - Klar</li>
+    		        <li><a href="presentation.html">Första uppgiften</a> - Klar</li>
+    		        <li><a href="../index.html">Startsida</a> - Klar</li>
+    		        <li>Absoluta/Relativa sökvägar
+    		            <dl>
+    		                <dt>1. Vilken är den absoluta sökvägen till filen bottom.html?
+    		                    <dd><b>Svar: http://www.server.se/www/html/pages/bottom.html</b></dd>
+    		                <dt>2. Vilken är den relativa sökvägen från filen default.html till filen top.html?
+    		                    <dd><b>Svar: pages/top.html</b></dd>
+    		                <dt>3. Vilken är den relativa sökvägen från filen bottom.html till filen index.html?
+    		                    <dd><b>Svar: ../../index.html</b></dd>
+    		                <dt>4. Vilken är den absoluta sökvägen till filen index.html?
+    		                    <dd><b>Svar: http://www.server.se/www/index.html</b></dd>
+    		                <dt>5. Vilken är den relativa sökvägen från filen top.html till bottom.html?
+    		                    <dd><b>Svar: bottom.html</b></dd>
+    		                <dt>6. Vilken är den relativa sökvägen från filen index.html till top.html:
+    		                    <dd><b>Svar: pages/top.html</b></dd>
+    		            </dl>
+    		        <li>Länkar och mer listor - Under progress</li>
+    		    </ul>
+    		    <h3 class="under_header" id="labb_2">
+    		        Laboration 2
+    		    </h3>
+    		    <h3 class="under_header">Resultat</h3>
 	        <table border="1">
 	            <thead>
-	                <tr>
-    	                <td>
-    	                    Laboration
-    	                </td>    
-    	                <td>
-    	                    Uppgift
-    	                </td>
-    	                <td>
-    	                    Status
-    	                </td>
-    	                <td>
-    	                    Redovisad
-    	                </td>
+	                <tr class="table_header">
+    	                <td>Laboration</td>    
+    	                <td>Uppgift</td>
+    	                <td>Status</td>
+    	                <td>Redovisad</td>
 	                </tr>
                 </thead>
                 <tbody>
-    	            <tr>
-    	                <td rowspan="3">
-    	                    1
-    	                </td>
-    	                <td>
-    	                    1
-    	                </td>
-    	                <td>
-    	                    Färdig
-    	                </td>
-    	                <td>
-    	                    -
-    	                </td>
+    	            <tr class="table_cell_bright">
+    	                <td rowspan="3">1</td>
+    	                <td>1</td>
+    	                <td class="green_text">Färdig</td>
+    	                <td>Ja</td>
     	            </tr>
-    	            <tr>
-    	                <td>
-    	                    2
-    	                </td>
-    	                <td>
-    	                    Färdig
-    	                </td>
-    	                <td>
-    	                    -
-    	                </td>
+    	            <tr class="table_cell_bright">
+    	                <td>2</td>
+    	                <td class="green_text">Färdig</td>
+    	                <td>-</td>
     	            </tr>
-    	            <tr>
-    	                <td>
-    	                    3
-    	                </td>
-    	                <td>
-    	                    Färdig
-    	                </td>
-    	                <td>
-    	                    -
-    	                </td>
+    	            <tr class="table_cell_bright">
+    	                <td>3</td>
+    	                <td class="green_text">Färdig</td>
+    	                <td>-</td>
     	            </tr>
-    	            <tr>
-    	                <td rowspan="6">
-    	                    2
-    	                </td>    
-    	                <td>
-    	                    1
-    	                </td>
-    	                <td>
-    	                    Ej påbörjad
-    	                </td>
-    	                <td>
-    	                    -
-    	                </td>
+    	            <tr class="table_cell_dark">
+    	                <td rowspan="6">2</td>    
+    	                <td>1</td>
+    	                <td class="green_text">Färdig</td>
+    	                <td>-</td>
     	            </tr>
-    	            <tr>
-    	                <td>
-    	                    2
-    	                </td>
-    	                <td>
-    	                    Ej påbörjad
-    	                </td>
-    	                <td>
-    	                    -
-    	                </td>
+    	            <tr class="table_cell_dark">
+    	                <td>2</td>
+    	                <td class="green_text">Färdig</td>
+    	                <td>-</td>
     	            </tr>
-    	            <tr>
-    	                <td>
-    	                    3
-    	                </td>
-    	                <td>
-    	                    Ej påbörjad
-    	                </td>
-    	                <td>
-    	                    -
-    	                </td>
+    	            <tr class="table_cell_dark">
+    	                <td>3</td>
+    	                <td class="green_text">Färdig</td>
+    	                <td>-</td>
     	            </tr>
-    	            <tr>
-    	                <td>
-    	                    4
-    	                </td>
-    	                <td>
-    	                    Ej påbörjad
-    	                </td>
-    	                <td>
-    	                    -
-    	                </td>
+    	            <tr class="table_cell_dark">
+    	                <td>4</td>
+    	                <td class="green_text">Färdig</td>
+    	                <td>-</td>
     	            </tr>
-    	            <tr>
-    	                <td>
-    	                    5
-    	                </td>
-    	                <td>
-    	                    Ej påbörjad
-    	                </td>
-    	                <td>
-    	                    -
-    	                </td>
+    	            <tr class="table_cell_dark">
+    	                <td>5</td>
+    	                <td class="green_text">Färdig</td>
+    	                <td>-</td>
     	            </tr>
-    	            <tr>
-    	                <td>
-    	                    6
-    	                </td>
-    	                <td>
-    	                    Ej påbörjad
-    	                </td>
-    	                <td>
-    	                    -
-    	                </td>
+    	            <tr class="table_cell_dark">
+    	                <td>6</td>
+    	                <td class="green_text">Färdig</td>
+    	                <td>-</td>
+    	            </tr>
+                    <tr class="table_cell_bright">
+    	                <td rowspan="3">3</td>    
+    	                <td>1</td>
+    	                <td>Ej påbörjad</td>
+    	                <td>-</td>
+    	            </tr>
+    	            <tr class="table_cell_bright">
+    	                <td>2</td>
+    	                <td>Ej påbörjad</td>
+    	                <td>-</td>
+    	            </tr>
+    	            <tr class="table_cell_bright">
+    	                <td>3</td>
+    	                <td>Ej påbörjad</td>
+    	                <td>-</td>
     	            </tr>
     	        </tbody>
     	        <tfoot>
-    	            <tr>
+    	            <tr class="table_footer">
                         <td colspan="4">
                             Laborationsresultat gällande Marcus Robertsson
                         </td>
     	            </tr>
     	        </tfoot>
 	        </table>
-	</body>
+	        <br />
+            </div>
+            <div id="footer">
+                <p>Copyright by Marcus Robertsson 2013. Skoluppgifter inom ID</p>
+            </div>
+        </div>
+    </body>
 </html>
