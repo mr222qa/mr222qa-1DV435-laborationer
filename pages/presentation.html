@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8"/>
         <link rel="stylesheet" type="text/css" href="../css/layout.css"/>
+        <link rel="stylesheet" type="text/css" media="print" href="../css/print.css"/>
         <title>
             Presentation
         </title>
@@ -48,7 +49,9 @@
                     Hejsan mitt namn är Marcus Robertsson och är 19 år gammal.
                     Jag kommer från en liten stad som heter Falkenberg och har bott där i hela mitt liv.
                 </p>
-                <div class="image_me"></div>
+                <div class="image_me">
+                    <img src="../pics/myself.jpg" alt="Mig" />
+                </div>
                 <p class="under_photo">
                     Här kommer en bild på mig.
                 </p>
@@ -106,18 +109,20 @@
         		<p class="info_text">
         			Här listas följande arbetsplatser och vad jag fick göra för uppgifter på arbetsplatserna:
         		</p>
-				<ol>
-					<li>Gekås
-						<ul class="under_meny">
-							<li class="pres_li">Lagerarbete
-							<li class="pres_li">Fylla på varor i hyllorna
-							<li class="pres_li">Hjälpa kunder
-						</ul>
-					<li>Coop Forum (praktikant)
-						<ul class="under_meny">
-							<li class="pres_li">Fylla på varor i hyllorna
-						</ul>
-				</ol>
+        		<div class="double_lists">
+    				<ol>
+    					<li>Gekås
+    						<ul>
+    							<li>Lagerarbete</li>
+    							<li>Fylla på varor i hyllorna</li>
+    							<li>Hjälpa kunder</li>
+    						</ul>
+    					<li>Coop Forum (praktikant)
+    						<ul>
+    							<li>Fylla på varor i hyllorna
+    						</ul>
+    				</ol>
+    			</div>
     		<h3 class="under_header">
     		    Vilka är mina favorithemsidor?
     		</h3>

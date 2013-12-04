@@ -167,8 +167,6 @@ ol
 /* IMAGES */
 .image_me
 {
-    background-image:url("../pics/myself.jpg");
-    background-repeat:no-repeat;
     width:300px;
     height:345px;
     padding-bottom:30px;
@@ -312,10 +310,17 @@ li
     color:black;
     
 }
-li .pres_li
+.double_lists
 {
-     margin-left:-100px;
-    margin-top:5px;
+    margin-top:-20px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.double_lists ul
+{
+    margin-left:0 !important;
+    margin-top:10px !important;
+    margin-bottom:10px !important;
 }
 .align_right
 {
