@@ -6,6 +6,7 @@ html
 body
 {
     background:#000000;
+    line-height:1;
 }
 h1
 {
@@ -310,6 +311,71 @@ ol
     font-family:verdana;
 }
 /* END OF BLOG */
+/* CONTACT FORM */
+fieldset
+{
+    text-align:left;
+    border:none;
+    width:400px;
+}
+legend
+{
+    margin-left:-10px;
+    font-size:14px;
+}
+select
+{
+    width:311px;
+    margin-left:2px;
+    border:none !important;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    background:url("../pics/drop_down.png") no-repeat 290px 12px;
+    text-indent: 0.01px;
+    text-overflow: "";
+    background-color:#202636;
+    padding:10px;
+    color:white;
+}
+select::-ms-expand 
+{
+    display: none;
+}
+select option
+{
+    padding:10px;
+}
+input[type="text"]
+{
+    width:302px;
+    border:none;
+    height:30px;
+    padding-left:10px;
+    margin-left:27px;
+    margin-top:10px;
+    background-color:#202636;
+    color:#999999;
+}
+input[type="text"]:focus
+{
+    color:white;
+}
+textarea
+{
+    clear:both;
+    width:400px;
+    height:70px;
+    margin-top:20px;
+    background-color:#202636;
+    color:#999999;
+    padding-left:10px;
+    border:none;
+}
+textarea:focus
+{
+    color:white;
+}
+/* END OF CONTACT FORM */
 /* TABLES */
 table
 {
