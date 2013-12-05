@@ -80,14 +80,14 @@ ol
 }
 #menu li a
 {
-    width:120px;
+    width:130px;
     height:25px;
     list-style:none;
     background-color:#202636;
-    text-align:center;
     padding-top:9px;
     font-size:14px;
     box-shadow:5px 5px 10px black;
+    text-align:right;
 }
 #menu .triangle_menu
 {
@@ -109,6 +109,80 @@ ol
     background-color:white;
     color:black;
 }
+/* SPIRTES */
+#home_icon
+{
+    background:url("../pics/sprite.png") 0 -48px;
+    width:24px;
+    height:24px;
+    margin-top:-3px;
+    margin-left:5px;
+    position:Absolute;
+}
+#menu ul li a:hover #home_icon
+{
+    background:url("../pics/sprite.png") 0 0;
+    width:24px;
+    height:24px;
+    margin-top:-3px;
+    margin-left:5px;
+    position:Absolute;
+}
+#labs_icon
+{
+    background:url("../pics/sprite.png") 0 -144px;
+    width:24px;
+    height:24px;
+    margin-top:-3px;
+    margin-left:5px;
+    position:Absolute;
+}
+#menu ul li a:hover #labs_icon
+{
+    background:url("../pics/sprite.png") 0 -96px;
+    width:24px;
+    height:24px;
+    margin-top:-3px;
+    margin-left:5px;
+    position:Absolute;
+}
+#presentation_icon
+{
+    background:url("../pics/sprite.png") 0 -238px;
+    width:24px;
+    height:24px;
+    margin-top:-3px;
+    margin-left:5px;
+    position:Absolute;
+}
+#menu ul li a:hover #presentation_icon
+{
+    background:url("../pics/sprite.png") 0 -190px;
+    width:24px;
+    height:24px;
+    margin-top:-3px;
+    margin-left:5px;
+    position:Absolute;
+}
+#contact_icon
+{
+    background:url("../pics/sprite.png") 0 -334px;
+    width:24px;
+    height:24px;
+    margin-top:-3px;
+    margin-left:5px;
+    position:Absolute;
+}
+#menu ul li a:hover #contact_icon
+{
+    background:url("../pics/sprite.png") 0 -286px;
+    width:24px;
+    height:24px;
+    margin-top:-3px;
+    margin-left:5px;
+    position:Absolute;
+}
+/* END OF SPRITES */
 /* END OF MENU */
 /* CONTENT */
 .header
