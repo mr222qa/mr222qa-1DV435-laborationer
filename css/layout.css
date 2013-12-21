@@ -360,6 +360,10 @@ input[type="text"]:focus
 {
     color:white;
 }
+input[type="button"]
+{
+    margin-left:140px;
+}
 textarea
 {
     clear:both;
