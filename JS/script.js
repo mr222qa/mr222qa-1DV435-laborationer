@@ -1,3 +1,4 @@
+var arrayList = new Array();
 function hide() {
     
     var TableID = document.getElementById("table");
@@ -6,4 +7,38 @@ function hide() {
     else button.value = "Hide";
     TableID.style.display = (TableID.style.display == 'none') ? "table" : "none";
     
+}
+function converter() {
+    var x = document.getElementById("x").value;
+    var result = document.getElementById("result");
+    var list = document.getElementById("list");
+    var dollar = x*6.57011;
+    var euro = x*9.01;
+    var dollarFixed = dollar.toFixed(2);
+    var euroFixed = euro.toFixed(2);
+    var reverse;
+    
+    if(!x)
+    {
+        result.innerHTML = "You cannot leave the field empty.";
+        return false;
+    }
+    if(x === "0")
+    {
+        result.innerHTML = "You must use a number higher than 0.";
+        return false;
+    }
+    if(isNaN(x))
+    {
+        result.innerHTML = "Please use a number, not another character.";
+        return false;
+    }
+    else
+    {
+        result.innerHTML = 'Euro: ' + euroFixed + ' och i dollar: ' + dollarFixed + '.';
+        
+        arrayList.push(x + "SEK is worth " + euroFixed + " euro and " + dollarFixed + " dollar.<br>");
+        reverse = arrayList.reverse();
+        list.innerHTML = reverse.join("");
+    }
 }
