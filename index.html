@@ -4,11 +4,12 @@
         <meta charset="utf-8"/>
         <link rel="stylesheet" type="text/css" href="css/layout.css"/>
         <link rel="stylesheet" type="text/css" media="print" href="css/print.css"/>
+        <script type="text/javascript" src="JS/script.js"></script>
         <title>
             Startsida
         </title>
     </head>
-    <body>
+    <body onload="imageChange();">
         <div id="bg_header"></div>
         <div id="wrapper">
             <div id="header"></div>
@@ -46,6 +47,7 @@
                 <h2 class="header">
                     Hem
                 </h2>
+                <img id="slideShow_image" height="400px" width="600px">
                 <h3 class="under_header">Kursblogg</h3>
                 <div class="blog_entry">
                     <div class="blog_header">

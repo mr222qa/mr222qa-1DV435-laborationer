@@ -1,4 +1,5 @@
 var arrayList = new Array();
+var counter = 0;
 function hide() {
     
     var TableID = document.getElementById("table");
@@ -41,4 +42,21 @@ function converter() {
         reverse = arrayList.reverse();
         list.innerHTML = reverse.join("");
     }
+}
+function imageShow() {
+    var imgArray = ["pics/1.jpg","pics/2.jpg","pics/3.jpg"];
+    var img = document.getElementById("slideShow_image");
+    if(counter === imgArray.length)
+    {
+        counter = 0;
+    }
+    if(counter <= imgArray.length)
+    {
+        img.src = imgArray[counter];
+        counter++;
+    }
+}
+function imageChange() {
+    imageShow();
+    setInterval(imageShow, 5000);
 }

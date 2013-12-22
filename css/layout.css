@@ -470,3 +470,11 @@ li
 {
     float:right;
 }
+
+/* SLIDESHOW */
+#slideShow_image
+{
+    width:600px;
+    height:400px;
+    margin-left:141px;
+}
