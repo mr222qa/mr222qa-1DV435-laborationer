@@ -13,8 +13,8 @@ function converter() {
     var x = document.getElementById("x").value;
     var result = document.getElementById("result");
     var list = document.getElementById("list");
-    var dollar = x*6.57011;
-    var euro = x*9.01;
+    var dollar = x/6.57011;
+    var euro = x/9.01;
     var dollarFixed = dollar.toFixed(2);
     var euroFixed = euro.toFixed(2);
     var reverse;
